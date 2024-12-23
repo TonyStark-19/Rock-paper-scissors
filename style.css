@@ -10,6 +10,15 @@ h1 {
     color: #fff;
     height: 5rem;
     line-height: 5rem;
+    width: 100%;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
 }
 
 .choices {
@@ -18,6 +27,7 @@ h1 {
     align-items: center;
     gap: 3rem;
     margin-top: 5rem;
+    flex-wrap: wrap;
 }
 
 .choice {
@@ -35,8 +45,8 @@ h1 {
 }
 
 .choice img {
-    height: 150px;
-    width: 150px;
+    height: 165px;
+    width: 165px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -64,6 +74,84 @@ h1 {
     color: #fff;
     font-size: 2rem;
     display: inline;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     border-radius: 1.5rem;
+}
+
+/* Responsiveness */
+
+@media (max-width: 600px) {
+
+    .choices {
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 550px) {
+
+    .choices {
+        gap: 1.5rem;
+    }
+
+    .choice,
+    .choice img {
+        height: 150px;
+        width: 150px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .choices {
+        gap: 1rem;
+    }
+
+    #user-score,
+    #comp-score {
+        font-size: 3.5rem;
+    }
+
+    #msg {
+        font-size: 1.6rem;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .choices {
+        margin-top: 2rem;
+        gap: 2rem;
+    }
+
+    .score-board {
+        margin-top: 2rem;
+    }
+
+    .msg-container {
+        margin-top: 4rem;
+    }
+}
+
+@media (max-width: 400px) {
+
+    #msg {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 350px) {
+
+    .choices {
+        gap: 1.5rem;
+    }
+
+    .choice,
+    .choice img {
+        height: 130px;
+        width: 130px;
+    }
+
+    #msg {
+        font-size: 1.2rem;
+    }
 }
