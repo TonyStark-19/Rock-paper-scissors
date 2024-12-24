@@ -108,31 +108,52 @@ h1 {
 
     #user-score,
     #comp-score {
-        font-size: 3.5rem;
+        font-size: 3.3rem;
     }
 
     #msg {
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 }
 
 @media (max-width: 450px) {
+
+    h1 {
+        font-size: 1.7rem;
+    }
 
     .choices {
         margin-top: 2rem;
         gap: 2rem;
     }
 
+    .choice,
+    .choice img {
+        height: 130px;
+        width: 130px;
+    }
+
     .score-board {
+        font-size: 1.8rem;
         margin-top: 2rem;
     }
 
     .msg-container {
         margin-top: 4rem;
     }
+
+    #msg {
+        padding: 1rem;
+    }
 }
 
 @media (max-width: 400px) {
+
+    .choice,
+    .choice img {
+        height: 120px;
+        width: 120px;
+    }
 
     #msg {
         font-size: 1.3rem;
@@ -143,12 +164,6 @@ h1 {
 
     .choices {
         gap: 1.5rem;
-    }
-
-    .choice,
-    .choice img {
-        height: 130px;
-        width: 130px;
     }
 
     #msg {
