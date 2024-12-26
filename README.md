@@ -15,8 +15,6 @@ The project is live and can be played here: [Rock Paper Scissors Game](https://t
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [How to Play](#how-to-play)
-- [Installation and Setup](#installation-and-setup)
-- [Contact](#contact)
 
 ## ✨ Features
 
