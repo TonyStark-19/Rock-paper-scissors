@@ -3,6 +3,7 @@
     padding: 0;
     text-align: center;
     background: #ffffffb3;
+    user-select: none;
 }
 
 h1 {
