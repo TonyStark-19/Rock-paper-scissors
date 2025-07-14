@@ -1,36 +1,29 @@
 # 🎮 Rock Paper Scissors Game
 
-A fun and simple implementation of the classic Rock Paper Scissors game, built using HTML, CSS, and JavaScript. This project allows users to play against the computer in a quick, interactive browser game. The game is now fully responsive and adapts to different screen sizes, providing a seamless experience across devices.
+A fun and interactive implementation of the classic Rock Paper Scissors game built using HTML, CSS, and JavaScript. Play against the computer in a responsive browser-based game that works seamlessly across all devices.
 
 ---
 
-## 🌟 Live Demo
-
-The project is live and can be played here: [Rock Paper Scissors Game](https://tonystark-19.github.io/Rock-paper-scissors/)
-
----
-
-## 📸 Screenshot
+## 📸 Screenshots
 
 ![Screenshot of Rock Paper Scissors Game](./images/image.png)
 
 ---
 
-## 📖 Table of Contents
+## 🌐 Live Demo
 
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [How to Play](#how-to-play)
+The project is live and can be played here: [Rock Paper Scissors Game](https://tonystark-19.github.io/Rock-paper-scissors/)
 
 ---
 
 ## ✨ Features
 
-- Play against the computer.
-- Fully responsive design that adapts to all screen sizes.
-- Displays the result of each round: win, lose, or tie.
-- Keeps track of scores for the player and computer.
-- User-friendly interface and animations for a better experience.
+- **🤖 Play vs Computer** – Enjoy a quick match against a computer opponent.
+- **📱 Fully Responsive Design** – Optimized for desktops, tablets, and smartphones.
+- **🏆 Score Tracking** – Keeps a running tally of player and computer scores.
+- **📢 Instant Results** – Displays win, lose, or tie after each round.
+- **💡 Smooth Animations** – Enhanced user experience with simple animations.
+- **🎯 Replay Anytime** – Unlimited rounds to keep the fun going.
 
 ---
 
@@ -53,3 +46,25 @@ The project is live and can be played here: [Rock Paper Scissors Game](https://t
    - **Paper beats Rock**
 5. The score is updated after each round.
 6. Play as many rounds as you'd like.
+
+---
+
+## 🛠️ How to run on your own system
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/TonyStark-19/Rock-paper-scissors.git
+   ```
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd Rock-paper-scissors
+   ```
+
+3. Open `index.html` in your browser.
+
+---
+
+  Made with ❤️ by Aditya chandel
