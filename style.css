@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     text-align: center;
     background: #ffffffb3;
+    font-family: "Poppins", sans-serif;
     user-select: none;
 }
+
+/* heading */
 
 h1 {
     background: #081b31;
@@ -12,7 +17,11 @@ h1 {
     height: 5rem;
     line-height: 5rem;
     width: 100%;
+    font-size: 35px;
+    font-weight: 600;
 }
+
+/* wrapper */
 
 .wrap {
     display: flex;
@@ -21,6 +30,8 @@ h1 {
     flex-direction: column;
     min-height: 80vh;
 }
+
+/* choices wrap */
 
 .choices {
     display: flex;
@@ -31,9 +42,11 @@ h1 {
     flex-wrap: wrap;
 }
 
+/* choice */
+
 .choice {
-    height: 165px;
-    width: 165px;
+    height: 170px;
+    width: 170px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -46,11 +59,13 @@ h1 {
 }
 
 .choice img {
-    height: 165px;
-    width: 165px;
+    height: 170px;
+    width: 170px;
     border-radius: 50%;
     object-fit: cover;
 }
+
+/* score board */
 
 .score-board {
     display: flex;
@@ -73,9 +88,9 @@ h1 {
 #msg {
     background: #081b31;
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.7rem;
     display: inline;
-    padding: 1rem 1.5rem;
+    padding: 1rem 2rem;
     border-radius: 1.5rem;
 }
 
@@ -145,6 +160,7 @@ h1 {
 
     #msg {
         padding: 1rem;
+        font-size: 1.3rem;
     }
 }
 

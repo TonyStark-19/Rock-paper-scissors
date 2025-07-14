@@ -1,3 +1,4 @@
+// initialize scores of user and computer
 let userScore = 0;
 let compScore = 0;
 
@@ -7,17 +8,20 @@ const msg = document.querySelector("#msg");
 const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
 
+// generate computer choices
 const genCompChoice = () => {
     const options = ["rock", "paper", "scissors"];
     const randIdx = Math.floor(Math.random() * 3);
     return options[randIdx];
 };
 
+// draw game message
 const drawGame = () => {
     msg.textContent = "Game was draw, play again!";
     msg.style.background = "#081b31";
 };
 
+// show winner
 const showWinner = (userWin, choiceId, compChoice) => {
     if (userWin) {
         userScore++;
@@ -32,6 +36,7 @@ const showWinner = (userWin, choiceId, compChoice) => {
     }
 };
 
+// play game 
 const playGame = (choiceId) => {
     const compChoice = genCompChoice();
 
@@ -50,10 +55,10 @@ const playGame = (choiceId) => {
         }
 
         showWinner(userWin, choiceId, compChoice);
-
     }
 };
 
+// active choices 
 choices.forEach((choice) => {
     choice.addEventListener("click", () => {
         const choiceId = choice.getAttribute("id");
