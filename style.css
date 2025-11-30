@@ -51,11 +51,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 3px solid transparent;
 }
 
 .choice:hover {
     cursor: pointer;
-    background: #081b31;
+    border: 3px solid #081b31;
 }
 
 .choice img {
@@ -100,6 +101,11 @@ h1 {
 
     .choices {
         gap: 1rem;
+    }
+
+    .msg-container {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
@@ -173,7 +179,7 @@ h1 {
     }
 
     #msg {
-        font-size: 1.3rem;
+        font-size: 1.3rem
     }
 }
 

@@ -2,9 +2,11 @@
 let userScore = 0;
 let compScore = 0;
 
+// chice and message
 const choices = document.querySelectorAll(".choice");
 const msg = document.querySelector("#msg");
 
+// scores
 const userScorePara = document.querySelector("#user-score");
 const compScorePara = document.querySelector("#comp-score");
 
