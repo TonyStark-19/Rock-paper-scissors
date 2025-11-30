@@ -1,12 +1,13 @@
 # 🎮 Rock Paper Scissors Game
 
-A fun and interactive implementation of the classic Rock Paper Scissors game built using HTML, CSS, and JavaScript. Play against the computer in a responsive browser-based game that works seamlessly across all devices.
+A fun, fast, and interactive browser-based version of the classic Rock–Paper–Scissors game built using HTML, CSS, and JavaScript. <br />
+Play against the computer, track your score, and enjoy a clean, responsive UI with smooth animations.
 
 ---
 
 ## 📸 Screenshots
 
-![Screenshot of Rock Paper Scissors Game](./images/image.png)
+![Screenshot of Rock Paper Scissors Game](./images/Screenshot/image.png)
 
 ---
 
@@ -24,6 +25,15 @@ The project is live and can be played here: [Rock Paper Scissors Game](https://t
 - **📢 Instant Results** – Displays win, lose, or tie after each round.
 - **💡 Smooth Animations** – Enhanced user experience with simple animations.
 - **🎯 Replay Anytime** – Unlimited rounds to keep the fun going.
+
+---
+
+## 🧠 Game Rules
+
+- Rock beats Scissors
+- Scissors beat Paper
+- Paper beats Rock
+- Same choice = Tie
 
 ---
 
@@ -67,4 +77,11 @@ The project is live and can be played here: [Rock Paper Scissors Game](https://t
 
 ---
 
-  Made with ❤️ by Aditya chandel
+## ⭐ Support
+
+If you enjoyed this project, please consider giving it a ⭐ star on GitHub. <br />
+Feedback and suggestions are always welcome!
+
+---
+
+Made with ❤️ by Aditya chandel
