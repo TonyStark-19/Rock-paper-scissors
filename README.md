@@ -1,5 +1,16 @@
 # 🎮 Rock Paper Scissors Game
 
+![Repo Size](https://img.shields.io/github/repo-size/TonyStark-19/Rock-paper-scissors?color=yellow)
+![Stars](https://img.shields.io/github/stars/TonyStark-19/Rock-paper-scissors?color=blue)
+![Forks](https://img.shields.io/github/forks/TonyStark-19/Rock-paper-scissors?color=blueviolet)
+![Last Commit](https://img.shields.io/github/last-commit/TonyStark-19/Rock-paper-scissors?color=brightgreen)
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-black?logo=github)
+
+
 A fun, fast, and interactive browser-based version of the classic Rock–Paper–Scissors game built using HTML, CSS, and JavaScript. <br />
 Play against the computer, track your score, and enjoy a clean, responsive UI with smooth animations.
 
