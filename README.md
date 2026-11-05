@@ -11,7 +11,8 @@
 ![GitHub Pages](https://img.shields.io/badge/Deployed%20on-GitHub%20Pages-black?logo=github)
 
 
-A fun, fast, and interactive browser-based version of the classic Rock–Paper–Scissors game built using HTML, CSS, and JavaScript. <br />
+A fun, fast, and interactive browser-based version of the classic Rock–Paper–Scissors game built using HTML, CSS, and JavaScript.
+
 Play against the computer, track your score, and enjoy a clean, responsive UI with smooth animations.
 
 ---
@@ -30,29 +31,35 @@ The project is live and can be played here: [Rock Paper Scissors Game](https://t
 
 ## ✨ Features
 
-- **🤖 Play vs Computer** – Enjoy a quick match against a computer opponent.
-- **📱 Fully Responsive Design** – Optimized for desktops, tablets, and smartphones.
-- **🏆 Score Tracking** – Keeps a running tally of player and computer scores.
-- **📢 Instant Results** – Displays win, lose, or tie after each round.
-- **💡 Smooth Animations** – Enhanced user experience with simple animations.
-- **🎯 Replay Anytime** – Unlimited rounds to keep the fun going.
+| Feature | Description |
+|:---|:---|
+| **Play vs Computer** | Challenge a computer-controlled opponent in a quick and engaging game. |
+| **Fully Responsive Design** | Provides a seamless gaming experience across desktops, tablets, and smartphones. |
+| **Score Tracking** | Maintains a running tally of player and computer scores throughout multiple rounds. |
+| **Instant Results** | Automatically detects and displays whether the player wins, loses, or ties after each round. |
+| **Smooth Animations** | Enhances the gaming experience with simple animations and smooth visual transitions. |
+| **Replay Anytime** | Allows players to start unlimited rounds and enjoy continuous gameplay. |
 
 ---
 
 ## 🧠 Game Rules
 
-- Rock beats Scissors
-- Scissors beat Paper
-- Paper beats Rock
-- Same choice = Tie
+| Rule | Outcome |
+|:---|:---|
+| **Rock vs Scissors** | Rock wins. |
+| **Scissors vs Paper** | Scissors wins. |
+| **Paper vs Rock** | Paper wins. |
+| **Same Choice** | The round ends in a tie. |
 
 ---
 
-## 💻 Technologies Used
+## 🛠️ Technologies Used
 
-- **HTML5** for structuring the content.
-- **CSS3** for styling the game and ensuring responsiveness.
-- **JavaScript** for handling game logic and interaction.
+| Technology | Purpose |
+|:---|:---|
+| **HTML5** | Structures the game's content and layout. |
+| **CSS3** | Handles game styling, animations, and responsive design. |
+| **JavaScript** | Implements game logic, computer opponent functionality, score tracking, and player interactions. |
 
 ---
 
@@ -62,11 +69,13 @@ The project is live and can be played here: [Rock Paper Scissors Game](https://t
 2. Choose one of the options: **Rock**, **Paper**, or **Scissors**.
 3. The computer will randomly choose one as well.
 4. The result of the match will be displayed:
+
    - **Rock beats Scissors**  
    - **Scissors beat Paper**  
    - **Paper beats Rock**
-5. The score is updated after each round.
-6. Play as many rounds as you'd like.
+     
+6. The score is updated after each round.
+7. Play as many rounds as you'd like.
 
 ---
 

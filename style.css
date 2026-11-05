@@ -10,7 +10,6 @@
 }
 
 /* heading */
-
 h1 {
     background: #081b31;
     color: #fff;
@@ -22,7 +21,6 @@ h1 {
 }
 
 /* wrapper */
-
 .wrap {
     display: flex;
     justify-content: center;
@@ -32,7 +30,6 @@ h1 {
 }
 
 /* choices wrap */
-
 .choices {
     display: flex;
     justify-content: center;
@@ -43,7 +40,6 @@ h1 {
 }
 
 /* choice */
-
 .choice {
     height: 170px;
     width: 170px;
@@ -67,7 +63,6 @@ h1 {
 }
 
 /* score board */
-
 .score-board {
     display: flex;
     justify-content: center;
@@ -96,9 +91,7 @@ h1 {
 }
 
 /* Responsiveness */
-
 @media (max-width: 600px) {
-
     .choices {
         gap: 1rem;
     }
@@ -110,7 +103,6 @@ h1 {
 }
 
 @media (max-width: 550px) {
-
     .choices {
         gap: 1.5rem;
     }
@@ -123,7 +115,6 @@ h1 {
 }
 
 @media (max-width: 500px) {
-
     .choices {
         gap: 1rem;
     }
@@ -139,7 +130,6 @@ h1 {
 }
 
 @media (max-width: 450px) {
-
     h1 {
         font-size: 1.7rem;
     }
@@ -171,7 +161,6 @@ h1 {
 }
 
 @media (max-width: 400px) {
-
     .choice,
     .choice img {
         height: 120px;
@@ -184,7 +173,6 @@ h1 {
 }
 
 @media (max-width: 350px) {
-
     .choices {
         gap: 1.5rem;
     }
